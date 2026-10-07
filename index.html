@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Interactive Radar Lab</title><link rel="stylesheet" href="assets/site.css">
+</head>
+<body>
+<header class="hero"><div class="wrap">
+  <div class="eyebrow">Companion to Understanding Radar Signal Processing</div>
+  <h1>Interactive Radar Lab</h1>
+  <p class="subtitle">Predict first. Move one physical parameter. Watch the waveform or spectrum respond. Then explain whether the result makes physical sense.</p>
+  <div class="badges"><span class="badge">No installation</span><span class="badge">No license</span><span class="badge">No programming experience required</span></div>
+</div></header>
+<main class="wrap">
+<section class="section"><h2>Core interactive experiments</h2><div class="grid cards">
+  <article class="panel card"><div class="eyebrow">Lab 01 · Chapter 4</div><h3>Delay → Range</h3><p>Move a target and observe how round-trip propagation delay changes. Change PRI and reveal range ambiguity.</p><p><a class="button" href="labs/delay-range/">Open interactive lab</a></p><div class="status live">LIVE</div></article>
+  <article class="panel card"><div class="eyebrow">Lab 02 · Chapter 6</div><h3>Pulse Compression</h3><p>Change bandwidth and duration; compare overlapping long echoes with the matched-filter response.</p><p><a class="button" href="labs/pulse-compression/">Open interactive lab</a></p><div class="status live">LIVE</div></article>
+  <article class="panel card"><div class="eyebrow">Lab 03 · Chapters 8–10</div><h3>Delay → Beat Frequency</h3><p>Change range, chirp duration, and bandwidth and watch the FMCW beat frequency move.</p><p><a class="button" href="labs/fmcw-beat/">Open interactive lab</a></p><div class="status live">LIVE</div></article>
+  <article class="panel card"><div class="eyebrow">Lab 04 · Chapter 11</div><h3>Two-Target FMCW Resolution</h3><p>Change bandwidth and target separation. Compare the finite-observation spectrum with FFT samples and test why zero padding does not create physical resolution.</p><p><a class="button" href="labs/fmcw-range-resolution/">Open interactive lab</a></p><div class="status live">LIVE</div></article>
+  <article class="panel card"><div class="eyebrow">Lab 05 · Chapter 12</div><h3>Slow-Time Phase</h3><p>Change radial velocity, carrier frequency, and chirp repetition interval to see chirp-to-chirp phase progression.</p><p><a class="button" href="labs/slow-time-phase/">Open interactive lab</a></p><div class="status live">LIVE</div></article>
+  <article class="panel card"><div class="eyebrow">Lab 06 · Chapter 13</div><h3>Doppler FFT & Aliasing</h3><p>Change velocity, chirp repetition interval, and chirp count to explore velocity grid spacing, zero padding, and ambiguity.</p><p><a class="button" href="labs/doppler-fft/">Open interactive lab</a></p><div class="status live">LIVE</div></article>
+  <article class="panel card"><div class="eyebrow">Lab 07 · Chapter 14</div><h3>Range-Doppler Map</h3><p>Move two targets in range and velocity and watch them separate—or overlap—in two dimensions.</p><p><a class="button" href="labs/range-doppler-map/">Open interactive lab</a></p><div class="status live">LIVE</div></article>
+  <article class="panel card"><div class="eyebrow">Lab 08 · Chapter 16</div><h3>CFAR</h3><p>Change background level, guard cells, training cells, and false-alarm probability to see an adaptive threshold move.</p><p><a class="button" href="labs/cfar/">Open interactive lab</a></p><div class="status live">LIVE</div></article>
+  <article class="panel card"><div class="eyebrow">Lab 09 · Chapters 17–18</div><h3>Angle & Spatial FFT</h3><p>Move a target in angle and change antenna spacing to explore spatial phase, angle spectra, and aliasing.</p><p><a class="button" href="labs/angle-spatial-fft/">Open interactive lab</a></p><div class="status live">LIVE</div></article>
+  <article class="panel card"><div class="eyebrow">Lab 10 · Chapters 19–20</div><h3>FFT vs MUSIC</h3><p>Move two close targets and compare a conventional finite-aperture spectrum with idealized MUSIC.</p><p><a class="button" href="labs/fft-vs-music/">Open interactive lab</a></p><div class="status live">LIVE</div></article>
+</div></section>
+<section class="section"><div class="panel" style="padding:22px"><h2 style="margin-top:0">How to use a lab</h2><p><strong>Predict → Change one parameter → Observe → Explain → Verify.</strong> The interactive page is not the answer. It is a virtual instrument for testing your physical prediction.</p></div></section>
+</main><footer class="wrap footer">Companion site for Understanding Radar Signal Processing.</footer>
+</body></html>
